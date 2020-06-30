@@ -21,7 +21,7 @@ I think they are 3 key features I find it developer friendly
  Since it is search as a service, it takes away to infrastructure setup time for you.
 2. AI-enrichment - it comes with out-of-the-box capability to connect with their cognitive services to enrich the document (such as extract sentiment then you can search for ingested email message that are negative and deep dive into them)
 3. Knowledge-store -- It is stilli in preview. it can project the enriched data back into Azure Table Storage which give you row and columns for use in Power BI or selected tool for reporting and analytics
-   [Knowledge Store]  (https://docs.microsoft.com/en-us/azure/search/knowledge-store-concept-intro)
+![Knowledge Store Intro](https://docs.microsoft.com/en-us/azure/search/knowledge-store-concept-intro)
 ![Example of knowledge store from Azure documentation](https://docs.microsoft.com/en-us/azure/search/media/knowledge-store-view-storage-explorer/storage-explorer-tables.png)
 
 
