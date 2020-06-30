@@ -17,7 +17,7 @@ You can get them indexed and then provide a web UI for user to search for releva
    
 ### Why use Azure Cognitive Search?
 I think they are 3 key features I find it developer friendly and make them different compare to ElasticSearch from my perspective.
-1. Easy to spin up the Azure Cognitive Search based on your use case. The service comes with RestFul API and sufficient code sample/documentation to help you started.
+1. Easy to spin up the Azure Cognitive Search based on your use case. The service comes with REST API and sufficient code sample/documentation to help you get started.
  Since it is search as a service, it takes away to infrastructure setup time for you.
 2. AI-enrichment - it comes with out-of-the-box capability to connect with their cognitive services to enrich the document (such as extract sentiment then you can search for ingested email message that are negative and deep dive into them)
 3. Knowledge-store -- It is stilli in preview. it can project the enriched data back into Azure Table Storage which give you row and columns for use in Power BI or selected tool for reporting and analytics
