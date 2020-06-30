@@ -35,7 +35,7 @@ the demo architecture is illustrated here:
 ![Architecture](https://adminportal20200629141308.azurewebsites.net/static/media/CogSearchAppArchitecture.3f17ad2f.JPG)
 
 #### How it works?
-We can look at the architecture from 3 main components - web application, Azure Cogntiive Search, and Data engineering
+We can look at the architecture from 3 main components - web application, Azure Cogntiive Search, Azure Cogntive Services and Data engineering
 
 ##### Web Application
 The web app is build with React for front end, .NET Core API for backend. A bit stray away from this post topic...however, I would like to comment that React is really easy to use for building front end. Having been learning/building web app, I find myself have the shortest learning curve with React+.Net Core API, compare with Razor+MVC or Angular+MVC.
