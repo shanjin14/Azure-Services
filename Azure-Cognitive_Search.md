@@ -51,6 +51,6 @@ I use Azure Text Analytics to extract key phrases that users key in so that user
 
 ##### Data Processing
 Actually, data processing is the main thing here. In the demo, I would like to allow my web app to return the relevant section only rather than the entire PDF file, so I actually buiild a small data processing script to get the document split by header so that Azure Cogntiive Search can index them by header([Reference here](https://docs.microsoft.com/en-us/azure/search/cognitive-search-skill-textsplit)).
-WOuld like to point out that Azure Cogntiive Search has build-in skillset to split the document by page or by sentences count[Link here](https://docs.microsoft.com/en-us/azure/search/cognitive-search-skill-textsplit). So it can help ease the data engineering work load and can focus their energy on other part of data requirement.
+One important point worth mentioning is that Azure Cogntiive Search has build-in skillset to split the document by page or by sentences count[Link here](https://docs.microsoft.com/en-us/azure/search/cognitive-search-skill-textsplit). So it can help ease the data engineering work load and can focus their energy on other part of data requirement.
 
 
