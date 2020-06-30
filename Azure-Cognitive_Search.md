@@ -43,14 +43,14 @@ Also ,I would like to give credit to [Creative Tim](https://www.creative-tim.com
 
 ##### Azure Cogntive Search
 Back to our topic, I use Azure provided started code [here](https://docs.microsoft.com/en-us/samples/azure-samples/azure-search-python-samples/python-tutorial-cognitive-search/)
-It is pretty straightforward to follow (and most likely get completed if you have a more complicated search index.
-Beware of the cost in invoking Azure Cognitive Service, if you don't need any build-in cognitive skillset, then don't add them in to keep the cost low.
+It is pretty straightforward to follow (and most likely get sophisticated if you have a more complicated search index).
+Notes: Beware of the cost in invoking Azure Cognitive Service, if you don't need any build-in cognitive skillset, then don't add them in to keep the cost low.
 
 ##### Azure Cognitive Services(Azure Text Analytics)
 I use Azure Text Analytics to extract key phrases that users key in so that users can key in free-form as they like. I'll use the text analytics capability to extract keyword that can be used for search
 
 ##### Data Processing
-Actually, data processing is the main thing here. In the demo, I would like to allow my web app to return the relevant section only rather than the entire PDF file, so I actually buiild a small data processing script to get the document split by header so that Azure Cogntiive Search can index them by header.
+Actually, data processing is the main thing here. In the demo, I would like to allow my web app to return the relevant section only rather than the entire PDF file, so I actually buiild a small data processing script to get the document split by header so that Azure Cogntiive Search can index them by header([Reference here](https://docs.microsoft.com/en-us/azure/search/cognitive-search-skill-textsplit)).
 WOuld like to point out that Azure Cogntiive Search has build-in skillset to split the document by page or by sentences count[Link here](https://docs.microsoft.com/en-us/azure/search/cognitive-search-skill-textsplit). So it can help ease the data engineering work load and can focus their energy on other part of data requirement.
 
 
